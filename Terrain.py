@@ -58,7 +58,7 @@ class Terrain:
             for j, c in enumerate(l):
                 if c == Case.ENTREE:
                     return (i, j)
-            return (-1, -1)
+        return None
 
     def afficher(self):
         for l in self.cases:
